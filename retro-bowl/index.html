@@ -8,10 +8,10 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta charset="utf-8"/>
         <title>Retro Bowl - SGGames</title>
+        <!-- Before the base tag, which would send this path to the CDN too -->
+        <script src="/js/mimicry.js"></script>
         <!-- Base URL routes all relative asset fetches to CDN (no local game files needed) -->
         <base href="https://cdn.jsdelivr.net/gh/ThatsMyMute/retro-bowl@main/">
-        <!-- Absolute path — not affected by base href -->
-        <script src="/js/mimicry.js"></script>
         <style>
             body {
               background: #000;
